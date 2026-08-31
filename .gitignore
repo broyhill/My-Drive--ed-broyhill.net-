@@ -1,0 +1,23 @@
+# Scoped repo: this Drive folder is 25 GB of documents, archives, spreadsheets,
+# personal records, and a nested git repo. NONE of that is tracked.
+#
+# This repository exists for ONE reason: BROYHILLGOP_BOOT.md and its companion
+# governance documents are the platform's constitution, they are edited by more than
+# one agent, and until 2026-08-31 they had no version history at all. An overwrite
+# was unrecoverable. Now it is not.
+#
+# Default: ignore everything. Then re-admit governance documents by name.
+/*
+!.gitignore
+!BROYHILLGOP_BOOT.md
+!BroyhillGOP-Constitution-v2.md
+!BroyhillGOP-Automated-Approval-System.md
+!START_HERE.md
+
+# Never track, regardless of any rule above:
+*.xlsx
+*.csv
+*.zip
+*.pdf
+*.docx
+*.gdoc
