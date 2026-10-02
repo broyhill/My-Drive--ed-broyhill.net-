@@ -14,6 +14,19 @@
 !BroyhillGOP-Automated-Approval-System.md
 !START_HERE.md
 
+# 2026-10-02: Ed's ecosystem rulings + ingestion charter are governance documents
+# (same multi-agent-edit risk as the constitution). Re-admitted by name only.
+!/claude-Ed/
+claude-Ed/*
+!claude-Ed/ECOSYSTEM_REPORTS/
+claude-Ed/ECOSYSTEM_REPORTS/*
+!claude-Ed/ECOSYSTEM_REPORTS/E9X_INGESTION_PIPELINE_CHARTER_2026-10-02.md
+!claude-Ed/ECOSYSTEM_REPORTS/CFO_IDENTITY_RECORD_2026-10-02.md
+!claude-Ed/ECOSYSTEM_REPORTS/E60_CFO_IDENTITY_RULING_2026-10-02.md
+!claude-Ed/ECOSYSTEM_REPORTS/E95_DARK_DONOR_RECOVERY_BLUEPRINT.md
+!claude-Ed/ECOSYSTEM_REPORTS/E61_SOURCE_INGESTION_IDENTITY_RESOLUTION_BLUEPRINT.md
+!claude-Ed/ECOSYSTEM_REPORTS/E61_CANDIDATE_NETWORK_UPLOAD_INTEGRATION.md
+
 # Never track, regardless of any rule above:
 *.xlsx
 *.csv
