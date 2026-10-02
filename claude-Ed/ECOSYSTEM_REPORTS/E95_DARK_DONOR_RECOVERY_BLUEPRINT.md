@@ -1,10 +1,12 @@
-> **⚠ RE-STATIONED — 2026-10-02 (Ed's dictated pipeline).** This engine is STAGE 3 of
-> the E9x pipeline, destination number **E96 ⚠** (E95 is dedupe/rollup/dark-pool).
-> Single source of truth: `E9X_INGESTION_PIPELINE_CHARTER_2026-10-02.md` (same
-> folder). Inventory and migration checklist below remain valid; rename this file
-> E95→E96 when Ed confirms the number against the roster.
+> **⚠ RE-STATIONED — 2026-10-02 (Ed's dictated pipeline; roster verified same day).**
+> This engine is STAGE 3 of the E9x pipeline (E95 is dedupe/rollup/dark-pool).
+> Roster check in `~/BroyhillGOP/ECO_CANONICAL`: **E96 is OCCUPIED (Central Donor
+> Lens, Ed's 2026-08-18 ruling) — destination is now E97 ⚠ (unchartered, free),
+> awaiting Ed's confirmation.** Single source of truth:
+> `E9X_INGESTION_PIPELINE_CHARTER_2026-10-02.md` (same folder). Inventory and
+> migration checklist below remain valid; rename this file on confirmation.
 
-# E95 → E96 ⚠ — Dark Donor Recovery Engine (DDRE)
+# E95 → E97 ⚠ — Dark Donor Recovery Engine (DDRE)
 
 **Version:** 0.1 (2026-10-02, Claude extraction draft for Ed's review)
 **Status:** SPEC + MIGRATION PLAN ONLY — code move BLOCKED pending GitHub re-auth (`gh auth login`); parent E61 implementation was itself gated on donor identity pipeline Stages 0–5 completing, and that gate carries over

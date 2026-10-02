@@ -166,14 +166,42 @@ tate_corporate_lookalike) come along as gate tests at E99.
 4. **Canary before commit** at every stage that writes toward the donor database.
 5. **Keyless** (standing rule): no stored credentials anywhere in the gang.
 
-## 8. Open for Ed's confirmation
+## 8. ROSTER VERIFIED 2026-10-02 (local checkout `~/BroyhillGOP`, ECO_CANONICAL)
 
-1. E95 = dedupe/rollup/dark-pool — confirm number.
-2. E96 = dark donor research engine — confirm number (then rename the dark-donor
-   blueprint file E95→E96).
-3. Register E95/E96/E98/E99 in the canonical roster + E100 index in the migration PR —
-   answered in writing, so the E61 mistake cannot repeat.
-4. Does E61 SIIRE fold in wholesale (recommended per §4) and do the E60 poll/survey
-   SQL + Dataiku pieces join the gang or land elsewhere?
-5. RNC_REGID stamping at E99: v2 ids (`rnc_regid_v2`) or original?
-6. Where is the FEC process code? (§5)
+| # | Canonical state (first-hand read) | Charter consequence |
+|---|---|---|
+| **E95** | **FREE** — no ECO_CANONICAL dir, no AGENT_BOOT shelf | dedupe/rollup/dark-pool lands here ✔ |
+| **E96** | **OCCUPIED — Central Donor Lens / Dynamic Single-Instance Lens** (Ed's ruling 2026-08-18). It IS the `Lens(path)` term over BEHAVIORAL_WHOPPER ⊗ DONATION_WHOPPER; reads donor tables read-only via `rnc_regid` join | NOT available for dark research. E96 is the pipeline's downstream CONSUMER — the gang relation Ed described ("ganged with e96") is supplier→consumer |
+| **E97** | **UNCHARTERED placeholder** (Claude audit 2026-08-19) | ⚠ RECOMMENDED home for the Dark Donor Research engine — awaiting Ed's confirmation |
+| **E98** | **PARTIALLY DEFINED — "gate behavior"**: likely a suppression/approval gate on E96 contract releases downstream (E96 Phase 1 open question #4 depends on it). NOTE: platform memory also names "E98 Canary" (cluster 372171: 147/$332,631.30) — gate vs canary identity needs Ed's one-line ruling; they may be the same organ (a gate that asserts invariants) | canary/gate station of the gang |
+| **E99** | **UNCHARTERED placeholder** | FREE for the Gateway ✔ — Ed's assignment lands on empty ground |
+
+**Whopper, canonically:** per `E96_WHOPPER_INTEGRATION_ADDENDUM_2026-08-18.md`, the
+Whoppers are the two donor matrices — Behavioral Whopper (Half A, who the person is)
+and Donation Whopper (Half B, giving behavior) — never flattened into one table. So
+§2's rule reads precisely: every file feeding either Whopper half, bulk or patty,
+passes the E99 gate.
+
+**Legacy code LOCATED (first-hand, `~/BroyhillGOP`):**
+- NCSBE huge process = `scripts/committee_ingestion_v4_stage2_*` family
+  (safe_person_apply / completion_dryrun / safe_person_dryrun, + DESKTOP_RECOVERY
+  copies, Apr 26 runbooks, and `docs/canonical/STAGE1_FORENSIC_RECONSTRUCTION_AUDIT_2026-09-12.md`).
+- **FEC process EXISTS and is separate, exactly as Ed recalled:**
+  `pipeline/fec_raw_import.py`, `pipeline/fec_nc_republican_donors.py`,
+  `database/process_fec_donors.py`, `DESKTOP_RECOVERY/fec_pac_bulk_pull_cursor.py` —
+  plus the scar tissue proving the post-mortem: `fix_01_fec_committees_party_column.sql`,
+  `fix_04_fec_corrupt_dates.sql`, `fix_07_fec_party_committee_date_cast.sql`.
+  Both processes route into E99/E95 at cutover.
+- `docs/canonical/E11_CFO_DECISION_2026-10-02.md` verified verbatim: E11 = CFO,
+  E87 = C/B/V (standalone auditor feeding E11), E60 overlay retired.
+
+## 9. Remaining for Ed
+
+1. Confirm **E97** for the Dark Donor Research engine (E96 is taken; alternative is a
+   module inside E95).
+2. One-line ruling on **E98: gate, canary, or one organ doing both** (E96's Phase 1
+   build is blocked on this same question, per its own open question #4).
+3. E61 SIIRE fold-in (recommended) and E60 poll/survey SQL + Dataiku placement.
+4. RNC_REGID stamping at E99: v2 ids (`rnc_regid_v2`) or original?
+5. Register E95/E97/E99 charters in ECO_CANONICAL + E100 index in the migration PR —
+   in writing, so the E61 mistake cannot repeat.
