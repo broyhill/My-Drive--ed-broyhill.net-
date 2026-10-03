@@ -174,13 +174,38 @@ tate_corporate_lookalike) come along as gate tests at E99.
 | **E96** | **OCCUPIED — Central Donor Lens / Dynamic Single-Instance Lens** (Ed's ruling 2026-08-18). It IS the `Lens(path)` term over BEHAVIORAL_WHOPPER ⊗ DONATION_WHOPPER; reads donor tables read-only via `rnc_regid` join | NOT available for dark research. E96 is the pipeline's downstream CONSUMER — the gang relation Ed described ("ganged with e96") is supplier→consumer |
 | **E97** | **UNCHARTERED placeholder** (Claude audit 2026-08-19) | ⚠ RECOMMENDED home for the Dark Donor Research engine — awaiting Ed's confirmation |
 | **E98** | **PARTIALLY DEFINED — "gate behavior"**: likely a suppression/approval gate on E96 contract releases downstream (E96 Phase 1 open question #4 depends on it). NOTE: platform memory also names "E98 Canary" (cluster 372171: 147/$332,631.30) — gate vs canary identity needs Ed's one-line ruling; they may be the same organ (a gate that asserts invariants) | canary/gate station of the gang |
-| **E99** | **UNCHARTERED placeholder** | FREE for the Gateway ✔ — Ed's assignment lands on empty ground |
+| **E99** | **BUILT AND AUTHORIZED — the ECO_CANONICAL "UNCHARTERED" placeholder is stale (Aug 19 audit).** `ecosystems/e99_source_standardization_front_door/` exists on main: runtime v0.1 PLAN_ONLY, authorized by Ed 2026-09-28 ("build E99 runtime v0.1 PLAN_ONLY"; "Synthesize the Enterprise Ingestion Architecture for E99/E61"). Schema contracts (EXACT_ORDERED match or QUARANTINED_SCHEMA), per-row constraint enforcement, bounded stream parsing with fault rows, NCBOE + FEC evidence envelopes, conduit dedupe ladder L0–L4 (`x_counts_toward_total` so memo/conduit copies never inflate), read-only T1/T3 spine match via SELECT-only relay, faction tagging, two-pass receipts, canary before and after. `e99.lead_score` keeps its namespace. | Ed's Gateway assignment matches a system already in flight — his dictation described a real build |
+
+**⚠ CHAIN CONFLICT TO RULE ON (flagged per the flag-conflicts rule):** the built
+E99's README declares the chain **E99 → E61 → E98 → E96** (E99 calls E61
+`normalize_row` + the E61-A fec_cand_adapter; E61 is still a live number in the
+built system). Ed's 2026-10-02 dictation declares **E99 → E95 (dedupe/rollup/
+dark pool) → E96/E97 (dark research) → silver/gold**, with E61 folding away.
+Partial overlap already exists: E99's conduit ladder + REDUNDANT/
+REDUNDANT_CANDIDATE decisions perform file- and row-level dedupe that the
+dictation assigns to E95. **RULED (Ed, 2026-10-02, "authorized and dedupe"):** the built E99 is
+AUTHORIZED as it stands, and **E95 is the dedupe/rollup stage** downstream of
+it — E99's conduit ladder remains in-file/in-run evidence dedupe
+(sub_id/amendment/memo/conduit, never summing one gift twice); E95 owns
+cross-file, cross-run, cross-source dedupe + rollup, and pools/marks the dark
+donors (per the dictated architecture). Still open: (a) whether E61's
+`normalize_row` role folds into E95 or stays E61 (built code calls E61 today;
+no change until Ed rules and the code moves in one PR); (c) E98 gate-vs-canary.
 
 **Whopper, canonically:** per `E96_WHOPPER_INTEGRATION_ADDENDUM_2026-08-18.md`, the
 Whoppers are the two donor matrices — Behavioral Whopper (Half A, who the person is)
 and Donation Whopper (Half B, giving behavior) — never flattened into one table. So
 §2's rule reads precisely: every file feeding either Whopper half, bulk or patty,
 passes the E99 gate.
+
+**Dark donor code LOCATED (first-hand, `~/BroyhillGOP` + July 1 split ruling):**
+`ecosystems/e61_source_ingestion_identity_resolution/sql/002_match_dark_donor.sql`
+(beside `001_e61_complete.sql` and `003_signal_taxonomy_and_charity_ddl.sql`).
+Deployment truth per the 2026-07-01 relay proof in
+`docs/canonical/E60_E61_E72_SPLIT_RULING_2026-07-01.md`: **E61's core `e61.*`
+schema was NOT live on Hetzner; only `match.dark_donor` existed, empty (0 rows)**
+— so the E9x move is spec + SQL + the empty live table, not a running system.
+Re-verify live state before migration (CLAIM/PROOF/VERIFIED).
 
 **Legacy code LOCATED (first-hand, `~/BroyhillGOP`):**
 - NCSBE huge process = `scripts/committee_ingestion_v4_stage2_*` family

@@ -37,7 +37,23 @@ the CFO question.
    selection depend on to convert. It needs a real home with its own number — parking
    it under E60's dead CFO banner invites the same cramming that buried CFO at E61.
 2. Nervous net, LP solver, cost ledger: `ECO_CANONICAL/E60/code/` and
-   `ECO_CANONICAL/E60/sql/200_e60_nervous_net.sql`
+   `ECO_CANONICAL/E60/sql/200_e60_nervous_net.sql` (DDL staged May 2, never
+   applied; still gated on `I AUTHORIZE THIS ACTION`).
+   **RULED (Ed, 2026-10-02): the THROTTLE is essential and GOES WITH THE CFO —
+   E11 owns the throttle.** Thresholds, rules, and fire receipts are E11's;
+   disposition of the pieces:
+   - **Throttle AUTHORITY → E11 CFO**: thresholds, ceilings, burn limits, kill
+     conditions are money decisions. The throttle is the NO side of the ruled
+     "E20 asks E11 before a GO."
+   - **Throttle EXECUTION → E20 Brain as T-codes** (where the June 29 E60 spec
+     already ruled the IFTTT rules belong). E20 fires E11's rules, never its own.
+   - **Throttle EVIDENCE → E11's own records, AUDITED by E87.** Ed's correction
+     2026-10-02: **C/B/V is an auditor ONLY** — E87 owns no operational store.
+     Every fire writes its receipt into E11's ledger; E87 reads it (read-only)
+     and reports cost/benefit/variance on the throttle rules themselves.
+   - **Cost ledger → E11** (the CFO owns the book of spend; `core.cost_ledger`
+     DDL rehomes under E11). E87 audits the ledger, never writes it.
+   - LP solver / investment dial → E11's toolbox.
 3. C/B/V bytes under `ECO_CANONICAL/E60/CBV/` — identity home is **E87**
 4. Poll/survey SQL and the Dataiku folder under E60
 5. The E11 training LMS — a different module on the same shelf. Provenance (Ed,
@@ -45,6 +61,23 @@ the CFO question.
    training on NC FIRST — it predates the 2026 roster; "11B Training & Learning
    Management System" in the original roster is this, separate from 11 Budget.
    Not a CFO asset; placement is its own decision.
+
+## C/B/V lineage (per the recovered 2026-07-01 split ruling)
+
+C/B/V has lived at three numbers: **E61** (as "Cost/Benefit/Variance ML Brain
+Control": Welford variance, Bayesian Thompson sampling, budget optimizer,
+attribution resolver) → **E72** (Campaign Investment Engine, 2026-07-01 ruling;
+`database/migrations/004_e72_campaign_investment_engine.sql`, which **still
+carries stale `e61` schema names — namespace-clean before any execution**) →
+**E87** (Ed's 2026-10-02 ruling, identity home; cf.
+`database/migrations/LIVE_E87_VARIANCE_OBSERVE_SEAM_2026-09-23.sql`).
+The July ruling also named E60 "Campaign Profit Engine / CFO Controller" —
+that is the origin of the E60-CFO title Ed retired on 2026-10-02.
+
+**Still-open E60 sub-collision (March 2026 diamond):** E60-A Addiction
+Psychology / Engagement Engine vs E60-B Nervous Net (cost ledger + LP solver).
+"Which takes E60, which gets renumbered" was posed 2026-07-01 and never
+answered — the same open placement question as shelf items 1 and 2 above.
 
 ## Session-history note (why a superseded stub exists beside this file)
 
